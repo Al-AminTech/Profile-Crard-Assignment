@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <main>
+        <div class="card">
+            <div class="card-head">
+                <img src="face.JPG" alt="profile-image" class="profile-img" data-testid="profile-picture">
+            </div>
+
+            <div class="card-body">
+                <h1 class="name" data-testid="full-name">Abdulwaasi Saliu</h1>
+                <p class="job-title" data-testid="current-job">Student/Aspiring Fullstack Developer</p>
+                <p class="bio" data-testid="bio">
+                    A dedicated tech enthusiast with a strong foundation in coding, web development and building
+                    practical applications. With expertise in HTML, CSS, JavaScript, and database management,
+                    I focuses on creating interactive and user-friendly solutions. Passionate about continuous learning,
+                    I am actively expanding my skills in modern web technologies and software development.
+            </div>
+
+            <div class="card-item">
+                <span data-testid="location">📍 Lagos State, Nigeria</span>
+                <span data-testid="email">📧 wasiusoliu@gmail.com</span>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/iamabdulwaasi19" class="social-link" 
+                   target="_blank" rel="noopener noreferrer"
+                   data-testid="social-links"><i class="fa fa-github"></i>GitHub</a>
+
+                <a href="https://portfolio-mu-red-76.vercel.app/" class="social-link"
+                   target="_blank" rel="noopener noreferrer"
+                   data-testid="social-links"><i class="fa fa-website">Portfolio</i></a>
+            </div>
+    
+            <div class="current-time" data-testid="current-time"></div>
+        </div>
+        </div>
+
+        <script src="profile.js"></script>
+    </main>
+</body>
+</html>
