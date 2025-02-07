@@ -8,7 +8,10 @@ function updateUTCTime() {
         };
     const utcTime = new Date().toLocaleTimeString('en-US', options);
     document.querySelector('[data-testid="current-time"]').textContent = 
-    `Current UTC Time: ${utcTime}`;
+`Current UTC Time: ${utcTime}`;
+
+
+    
 }
 
 // Update time immediately and then every second
